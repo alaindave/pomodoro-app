@@ -24,13 +24,13 @@ export default class BreakSetter extends Component {
   render() {
     return (
       <div>
-        <h3>Set Break</h3>
-        <p>{this.state.timer}</p>
-        <button className=" button1" onClick={this.increment}>
-          Increment
+        <h3 id="break">Break</h3>
+        <p id="breakTime">{this.state.timer}</p>
+        <button id="breakInc" onClick={this.increment}>
+          +
         </button>
-        <button className=" button2" onClick={this.decrement}>
-          Decrement
+        <button id="breakDec" onClick={this.decrement}>
+          -
         </button>
       </div>
     );

@@ -12,14 +12,14 @@ class App extends Component {
     return (
       <div className="d-flex flex-column">
         <div id="title">
-          <h1>Pomodoro Clock</h1>
+          <h1>Pomodoros Clock</h1>
         </div>
 
         <div
-          id="BreakAndSession"
+          id="breakAndSession"
           className="d-flex flex-row justify-content-center"
         >
-          <div id="BreakSetter">
+          <div id="breakSetter">
             <BreakSetter />
           </div>
           <div id="session">

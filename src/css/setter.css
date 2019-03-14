@@ -3,34 +3,33 @@ h1 {
 }
 
 h3 {
-  color: white;
+  color: #800000;
 }
 
 p {
   color: white;
 }
 
-.button1 {
-  background-color: #4caf50;
-}
-
-.button2 {
-  background-color: #4caf50;
-}
-
 #title {
   margin: auto;
 }
 
-#BreakSetter {
+#breakSetter {
+  position: relative;
+  left: 80px;
   margin-right: 150px;
+  border-style: solid;
+  border-color: #660000;
+  margin-bottom: 300px;
 }
 
-#BreakAndSession {
-  margin-top: 80px;
+#breakAndSession {
+  margin-top: 30px;
 }
 
 #session {
+  position: relative;
+  right: 70px;
   border-style: solid;
   border-width: 5px;
   padding-left: 100px;
@@ -40,10 +39,65 @@ p {
   border-color: #660000;
 }
 
+#timer {
+  position: relative;
+  left: 40px;
+}
+
 #min {
   font-size: 100px;
+  color: #cc6600;
 }
 
 #sec {
   font-size: 100px;
+  color: #cc6600;
+}
+
+#inc {
+  position: relative;
+  bottom: 30px;
+  left: 64px;
+}
+
+#dec {
+  position: relative;
+  top: 3px;
+  left: 40px;
+}
+
+#start {
+  position: relative;
+  left: 60px;
+}
+
+#stopReset {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+#reset {
+  position: relative;
+  left: 10px;
+}
+
+#resume {
+  position: relative;
+  left: 5px;
+}
+
+#breakDec {
+  position: relative;
+  left: 20px;
+}
+
+#breakInc {
+  position: relative;
+  left: 15px;
+}
+
+#breakTime {
+  position: relative;
+  left: 30px;
 }
